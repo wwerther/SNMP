@@ -1,0 +1,81 @@
+<refentry id="{@id}">
+ <refnamediv>
+  <refname>Examples</refname>
+  <refpurpose>Bla bla bla. This is my purpose</refpurpose>
+ </refnamediv>
+ <refsynopsisdiv>
+  <author>
+   Walter Werther
+   <authorblurb>
+    {@link mailto:walter@wwerther.de walter@wwerther.de}
+   </authorblurb>
+  </author>
+ </refsynopsisdiv>
+ {@toc}
+ <refsect1 id="{@id intro}">
+  <title>SNMP-Basics</title>
+  <para>This is my first paragraph</para>
+ </refsect1>
+ <refsect1 id="{@id writing}">
+  <title>SNMP-Connectors</title>
+  <para>About connectors</para>
+  <refsect2 id="{@id audience}">
+   <title>Real-Connector</title>
+   <para>This is my first paragraph</para>
+   <para>This is my second paragraph</para>
+   <para>An end-user generally wants:
+    <itemizedlist>
+     <listitem><para>Instruction-style writing, that explains and describes general concepts more than how a particular variable is used</para></listitem>
+     <listitem><para>Interface information only, no low-level details</para></listitem>
+     <listitem><para>Examples of how to use, and tutorials</para></listitem>
+    </itemizedlist>
+    Whereas a programmer may want in addition:
+    <itemizedlist>
+     <listitem><para>Details on how program elements interact, which elements use others</para></listitem>
+     <listitem><para>Where in the source code an action or series of actions occurs</para></listitem>
+     <listitem><para>How to extend the code to add new functionality</para></listitem>
+    </itemizedlist>
+   </para>
+   <para>This is my last paragraph</para>
+  </refsect2>
+  <refsect2 id="{@id using}">
+   <title>Buffered-Connector</title>
+   <para>This is my first paragraph</para>
+   <para>This is my second paragraph</para>
+  </refsect2>
+ </refsect1>
+ <refsect1 id="{@id snmptree}">
+  <title>SNMP Tree</title>
+ </refsect1>
+ <refsect1 id="{@id snmptable}">
+  <title>SNMP Table</title>
+  <refsect2 id="{@id tips}">
+	  <title>SNMP Table-Entries</title>
+  </refsect2>
+ </refsect1>
+ <refsect1 id="{@id exceptions}">
+  <title>Exceptions</title>
+  <refsect2 id="{@id tips}">
+   <title>Tips on Revising</title>
+   <para>There are many ways of creating good documentation, but perhaps the best is to read what you have written from different perspectives.  Open up your documentation, and try to use it to figure out your software project.  If this is difficult, go back and edit or rewrite.  Remove anything that is confusing or unnecessary, make sure everything is there that is needed, and then when it seems good, ask a php user that doesn't know your project, or even a non-programmer to read it and use their reactions to tailor the documentation.</para>
+  </refsect2>
+  <refsect2 id="{@id conclusion}">
+   <title>Conclusion</title>
+   <para>The use of phpDocumentor will definitely improve the look and feel of your documentation, but don't stop there, let it help you to create truly dynamic documents that are easily maintained and kept up-to-date.  After all, great docs for great programs will help to secure PHP's rightful throne as the best out there!
+   </para>
+  </refsect2>
+ </refsect1>
+ <refsect1 id="{@id references}">
+  <title>References for learning how to use phpDocumentor</title>
+  <para>
+   <itemizedlist>
+    <listitem>
+	 <para>
+	  {@tutorial phpDocumentor.quickstart.pkg}
+	 </para>
+	</listitem>
+   </itemizedlist>
+  </para>
+ </refsect1>
+</refentry>
+
